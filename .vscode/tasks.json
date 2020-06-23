@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "craft basic",
+            "type": "shell",
+            "command": "jscraft",
+            "args": [
+                "${workspaceFolder}/.newcontinent-team/1_template",
+                "${workspaceFolder}/.newcontinent-team/2_layout/basic",
+                "${workspaceFolder}/workspace/basic"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

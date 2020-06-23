@@ -1,0 +1,28 @@
+{
+    "build_step":[
+        {
+            "target":"work://res/",
+            "from":"layout://res/"
+        },
+        {
+            "target":"work://index.htm",
+            "from":"layout://index.htm"
+        },
+        {
+            "target":"work://style.css",
+            "from":"layout://style.css"
+        },
+        {
+            "target":"work://nct.js",
+            "from":"template://nct/src/nct.js"
+        },
+        {
+            "target":"work://pure.js",
+            "from":"template://pure/src/pure.js"
+        },
+        {
+            "target":"work://mod.js",
+            "from":"layout://mod.js"
+        }
+    ]
+}
