@@ -1,0 +1,6 @@
+[submodule ".newcontinent-team/1_layout/pure"]
+	path = .newcontinent-team/1_layout/pure
+	url = https://github.com/tapvanvn/pure.git
+[submodule ".newcontinent-team/1_layout/nct"]
+	path = .newcontinent-team/1_layout/nct
+	url = https://github.com/tapvanvn/nctjs.git
