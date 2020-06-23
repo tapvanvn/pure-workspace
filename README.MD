@@ -1,1 +1,1 @@
-# This is a workspace to develop and testing for Pure and NCT
+# This is a workspace to develop and test for Pure and NCT
