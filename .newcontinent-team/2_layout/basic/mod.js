@@ -4,9 +4,11 @@ function jscraft_module_content() {
 
     var container = __pure__mod__.Class.extend("Container",{
 
-        init:function(dom)
+        init:function(dom, ctx)
         {
-           dom.innerHTML = "This is a container"
+            this.dom = dom
+            ctx.panel.innerHTML = "This is a panel"
+            __pure__mod__.Pure.dom.bindStyle(ctx.panel, "hot")
         }
     });
 
